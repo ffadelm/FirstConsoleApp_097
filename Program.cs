@@ -10,7 +10,13 @@ namespace FirstConsoleApp_097
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            int a, b, c;
+
+            a = 3;
+            b = 4;
+            c = a + b;
+
+            Console.WriteLine(a+" + "+b+" = "+c);
             Console.ReadLine();
         }
     }
